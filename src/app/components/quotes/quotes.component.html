@@ -1,0 +1,41 @@
+<div class="quote">
+
+    <form (submit) = "addQuote()">
+        
+        <input 
+        type="text"
+        name="inputQuote"
+        placeholder="Write a quote.."
+        class="quote-input"
+        [(ngModel)]="inputQuote"
+        
+        />
+        <input type="submit" value="add quote" class="quote-submit">
+
+        
+    </form>
+    
+  <div  *ngFor="let quote of quotes; let i = index;" class="quote {{(quote.completed ? 'done' : '') }}">
+    <div class="quote">
+        <div class="id">{{ i }}</div>
+        <div class="content" (click)="toggleDone(i)">{{ quote.content }}</div>
+        <button class="delete" (click)="deleteQuote(i)">Remove</button>
+    </div>
+    <div class="vote">
+        <p>{{numberOfLikes}}</p>
+        <button class="btn" (click)= "likeButtonClick()">Like </button> <tr></tr><br>
+        <button class="btn" (click)= "dislikeButtonClick()">Dislike</button>
+           <p>{{quotes}}</p>
+           <p></p>
+        <form>
+
+            <label for="fname">Author of the quote:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Your name:</label><br>
+            <input type="text" id="lname" name="lname">
+          </form>
+          
+    </div>
+   </div>
+</div>
+

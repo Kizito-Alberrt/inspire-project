@@ -1,0 +1,61 @@
+.quote {
+	display: block;
+	padding: 10px 15px;
+	background-color: rgba(255, 255, 255, 0.356);
+	border-bottom: 1px solid rgb(70, 68, 68);
+	text-decoration: dashed;
+}
+
+.quote:nth-child(even) {
+	background-color: rgba(63, 60, 60, 0.384);
+}
+
+.quote:last-of-type {
+	border-bottom: 0;
+}
+
+.quote .id {
+	flex: 1 1 50px;
+}
+
+.quote .content {
+	flex: 1 1 100%;
+}
+
+.quote.done .content {
+	text-decoration: line-through;
+}
+
+.quote-input {
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	appearance: none;
+	border: none;
+	background-color: #353333;
+	margin-top: 15px;
+	font-size: 20px;
+	outline: none;
+}
+
+.quote-submit {
+	display: block;
+	width: 100%;
+	max-width: 200px;
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+
+	background-color: #FE4880;
+	color: #FFF;
+	margin: 15px auto;
+
+	padding: 10px 15px;
+	font-size: 18px;
+	font-weight: 700;
+}
+.btn{
+	padding: 15px;
+	color: rgb(236, 25, 226);
+}
