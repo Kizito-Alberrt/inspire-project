@@ -1,27 +1,29 @@
 # InspireProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+It is a site where people can input their motivational quotes from their best authors
 
-## Development server
+## Description of the project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+A user can write a quote in the quote section, the quote will also include the author of the quote and the details of the person posting the quote.
 
-## Code scaffolding
+A like and dislike buttons will help the person posting to know how many votes the quote posted has.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instructions
 
-## Build
+Once posted, other users can downvote or upvote your quote.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+A user can as well delete the quote they post or mark it as not useful
 
-## Running unit tests
+## Live link
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+https://kizito-alberrt.github.io/inspire-project/
 
-## Running end-to-end tests
+## License and copywrite
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Inspire-project
 
-## Further help
+Licensed under [MIT license](LICENSE).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
