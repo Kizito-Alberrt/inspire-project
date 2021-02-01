@@ -59,3 +59,12 @@
 	padding: 15px;
 	color: rgb(236, 25, 226);
 }
+.content{
+font-size: 15px;
+font-family: 'Courier New', Courier, monospace;
+padding: 15px;
+}
+.quote{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 15px;
+}

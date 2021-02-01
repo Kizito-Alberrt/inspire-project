@@ -18,13 +18,17 @@ inputQuote:string = "";
     this.quotes = [
       {
         content:'first quote',
-        completed: false
+        completed: true
       },
       {
         content:'second quote',
         completed: true
       },
+      {
+        author:'any'
+      }
     ]
+  
   }
 
   toggleDone (id:number) {

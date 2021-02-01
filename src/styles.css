@@ -1,4 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-.carousel{
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 0, 221, 0.226);
+    color: rgb(7, 0, 0);
+    text-align: center;
+}
+.carousel-inner{
+    height: 550px;
+    margin-top: 40px;
 }
