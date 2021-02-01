@@ -9,6 +9,10 @@ A user can write a quote in the quote section, the quote will also include the a
 
 A like and dislike buttons will help the person posting to know how many votes the quote posted has.
 
+## Author
+
+Kizito ALbert
+
 ## Instructions
 
 Once posted, other users can downvote or upvote your quote.
