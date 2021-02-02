@@ -7,6 +7,7 @@ import { Quote } from './../../models/Quotes';
 })
 export class QuotesComponent implements OnInit {
 
+  myDate = Date.now ()
 
 quotes?:Quote[];
 

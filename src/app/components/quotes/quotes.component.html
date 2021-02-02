@@ -8,6 +8,7 @@
         placeholder="Write a quote.."
         class="quote-input"
         [(ngModel)]="inputQuote"
+      
         
         />
         <input type="submit" value="add quote" class="quote-submit">
@@ -34,7 +35,9 @@
             <label for="lname">Your name:</label><br>
             <input type="text" id="lname" name="lname">
           </form>
-          
+          <div>
+            {{ myDate | date }}
+          </div>
     </div>
    </div>
 </div>
